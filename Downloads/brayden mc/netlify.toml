@@ -1,0 +1,12 @@
+[[headers]]
+  for = "/overlay_x64.dll"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/octet-stream"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"

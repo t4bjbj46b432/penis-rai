@@ -1,0 +1,3 @@
+# Allow CORS for DLL downloads
+/overlay_x64.dll  /overlay_x64.dll  200
+/*  /index.html  200
